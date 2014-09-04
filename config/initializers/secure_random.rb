@@ -1,0 +1,2 @@
+secret = Rails.env.production? ? ENV['SECRET_TOKEN'] : "9c3d270c3ae852e80b591d171aefbcf13453c05bf42ff00f5a5d10678c7f91d9f9b3029c495d741246cd8b02d4b083f5838a7853d6f995bce9a22aca2a4a94b0"
+DemoApp::Application.config.secret_key_base = secret
